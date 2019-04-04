@@ -15,11 +15,12 @@ public class DefenderSpawner : MonoBehaviour {
 
     private void AttemptToPlaceDefenderAt(Vector2 gridPosition) {
         var StarDisplay = FindObjectOfType<StarDisplay>();
-        int defenderCost = defender.GetStarCost();
-
-        if (StarDisplay.HaveEnoughStars(defenderCost)) {
-            SpawnDefender(gridPosition);
-            StarDisplay.SpendStars(defenderCost);
+        if (defender) {
+            int defenderCost = defender.GetStarCost();
+            if (StarDisplay.HaveEnoughStars(defenderCost)) {
+                SpawnDefender(gridPosition);
+                StarDisplay.SpendStars(defenderCost);
+            }
         }
     }
 
