@@ -26,7 +26,7 @@ public class Lives : MonoBehaviour {
 
     private void GameOver() {
         if (lives <= 0) {
-            FindObjectOfType<LevelLoader>().LoadYouLose();
+            FindObjectOfType<LevelController>().HandleLoseCondition();
         }
     }
 }
