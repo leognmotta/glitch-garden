@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\leo\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\leo\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Glitch Garden.-907463754.00" t="ExcludeRecursive" />
+    <e p="G:\unity\unity course\Glitch Garden\Glitch Garden" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Attacker.cs" t="Include" />
+          <e p="AttackerSpawner.cs" t="Include" />
+          <e p="DamageCollider.cs" t="Include" />
+          <e p="Defender.cs" t="Include" />
+          <e p="DefenderButton.cs" t="Include" />
+          <e p="DefenderSpawner.cs" t="Include" />
+          <e p="Fox.cs" t="Include" />
+          <e p="GameTimer.cs" t="Include" />
+          <e p="Gravestone.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
+          <e p="LevelController.cs" t="Include" />
+          <e p="LevelLoader.cs" t="Include" />
+          <e p="Lives.cs" t="Include" />
+          <e p="Lizard.cs" t="Include" />
+          <e p="MusicPlayer.cs" t="Include" />
+          <e p="OptionsController.cs" t="Include" />
+          <e p="PlayerPrefsController.cs" t="Include" />
+          <e p="Projectile.cs" t="Include" />
+          <e p="Shooter.cs" t="Include" />
+          <e p="StarDisplay.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Glitch Garden.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

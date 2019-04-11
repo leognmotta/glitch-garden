@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Lives : MonoBehaviour {
-    [SerializeField] int lives = 5;
+public class Lives : MonoBehaviour
+{
+    [SerializeField] float baseLives = 3;
     [SerializeField] int damage = 1;
+    float lives;
     Text livesText;
 
     // Start is called before the first frame update
-    void Start() {
+    void Start()
+    {
+        lives = baseLives - PlayerPrefsController.GetDifficulty();
         livesText = GetComponent<Text>();
         UpdateDisplay();
     }
